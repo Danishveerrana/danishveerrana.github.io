@@ -1,4 +1,4 @@
-<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -47,9 +47,6 @@
             </span>
           </a>
         </li>
-           </span>
-          </a>
-        </li>
       </ul>
     </div>
   </div>
@@ -57,7 +54,7 @@
   <!-- Link to External JavaScript -->
   <script src="script.js"></script>
 </body>
-</html><style>/* General body and text setup */
+<style>/* General body and text setup */
 html, body {
   font-family: 'Courier New', monospace;
   background-color: #1e1e1e; /* Dark gray background for a clean look */
