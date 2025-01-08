@@ -4,20 +4,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
-  <title>Danish Veer Rana</title>
   <style>
     /* General body and text setup */
     html, body {
       font-family: 'Courier New', monospace;
       background-color: #1e1e1e; /* Dark gray background */
-      color: #d4d4d4; /* Light gray text */
+      color: #d4d4d4;
       margin: 0;
       padding: 0;
       height: 120%;
       overflow-x: hidden;
     }
-
-    /* Intro Section */
+    
     .intro {
       height: 100%;
       width: 100%;
@@ -67,7 +65,7 @@
 
     .text {
       font-weight: bold;
-      font-size: 80px;
+      font-size: 40px;
       color: #4ec9b0; /* Teal for scrambled text */
     }
 
@@ -86,8 +84,7 @@
       color: #d7ba7d; /* Muted yellow on hover */
       text-decoration: underline;
     }
-
-    /* Buttons */
+    
     button {
       background-color: #3f3f3f; /* Dark gray for buttons */
       color: #d4d4d4; /* Light gray text */
