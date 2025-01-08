@@ -1,4 +1,4 @@
-<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -44,11 +44,6 @@
             <span class="yek-social__button yek-social__button--github">
               <i class="yek-social__icon yek-social__icon--codepen fab fa-github-alt"></i>
             </span>
-          </a>
-        </li>
-           </span>
-          </a>
-        </li>
       </ul>
     </div>
   </div>
