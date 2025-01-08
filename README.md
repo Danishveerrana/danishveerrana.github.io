@@ -22,7 +22,7 @@
   <!-- Introduction Text Section -->
   <div class="intro">
     <h1>Introduction</h1>
-    <h3>Hi, I'm Danish Veer Rana, an 11th-grade student from Jammu & Kashmir, India. I'm passionate about programming, editing, and photography. With a love for technology, I'm always experimenting with new ideas to create useful tools, software, and inventions that can make a real impact. I believe in the power of tech to change lives, and I'm excited to keep learning, building, and pushing the boundaries of what's possible!</h3>
+    <h3>Hi,  Danish Veer Rana, an 11th-grade student from Jammu & Kashmir, India. I'm passionate about programming, editing, and photography. With a love for technology, I'm always experimenting with new ideas to create useful tools, software, and inventions that can make a real impact. I believe in the power of tech to change lives, and I'm excited to keep learning, building, and pushing the boundaries of what's possible!</h3>
     <h5>Site will be updated soon. Thank you</h5>
     <h6>You can contribute by suggesting me some improvements via mailing.</h6>
   </div>
