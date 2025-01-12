@@ -74,7 +74,9 @@
     .text {
       font-size: 2rem;
       font-weight: bold;
-      color: blue;
+      color: #4ec9b0;
+      position: centre;
+      width:100%;
     }
 
     .dud {
