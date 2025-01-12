@@ -77,6 +77,7 @@
       color: #4ec9b0;
       position: centre;
       width:100%;
+      text-align: center;
     }
 
     .dud {
