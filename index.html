@@ -1,73 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Danish Veer Rana</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danish Veer Rana - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Introduction Section -->
-  <div class="intro">
+  <section class="intro">
     <h1>I'm</h1>
     <div class="container">
       <div class="text"></div>
     </div>
-    <h3>Hi, I'm Danish Veer Rana, an 11th-grade student from Jammu & Kashmir, India. I'm passionate about programming, editing, and photography...</h3>
+    <h3>Hi, I'm Danish Veer Rana, a passionate coder, editor, and tech enthusiast from Jammu & Kashmir, India.</h3>
     <h5>Site will be updated soon. Thank you.</h5>
-    <h6>You can contribute by suggesting me some improvements via mailing.</h6>
-  </div>
+    <h6>You can contribute via email suggestions.</h6>
+  </section>
 
-  <!-- Social Media Section -->
-  <div class="social-media">
-    <h2>Social Media Accounts</h2>
-    <ul class="yek-social__list">
-      <li class="yek-social__item">
-        <a class="yek-social__link" href="mailto:veerdanish452008@gmail.com">
-          <span class="yek-social__button">
-            <i class="yek-social__icon fas fa-envelope"></i>
-          </span>
-        </a>
-      </li>
-      <li class="yek-social__item">
-        <a class="yek-social__link" href="https://github.com/danishveerrana">
-          <span class="yek-social__button">
-            <i class="yek-social__icon fab fa-github"></i>
-          </span>
-        </a>
-      </li>
-      <li class="yek-social__item">
-        <a class="yek-social__link" href="https://www.instagram.com/danishveerrana">
-          <span class="yek-social__button">
-            <i class="yek-social__icon fab fa-instagram"></i>
-          </span>
-        </a>
-      </li>
-      <li class="yek-social__item">
-        <a class="yek-social__link" href="https://www.linkedin.com/in/danishveerrana">
-          <span class="yek-social__button">
-            <i class="yek-social__icon fab fa-linkedin"></i>
-          </span>
-        </a>
-      </li>
+  <section class="projects scroll-reveal">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Voice-Controlled Graphics (VCG)</h3>
+        <p>Python-based app to draw 2D graphics using voice commands. Supports save, undo, and more.</p>
+        <a href="https://danishveerrana.github.io/vcgprojectinfo.github.io/" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Srurrr Music Player</h3>
+        <p>A stylish HTML/CSS/JS-based music player with a premium interface.</p>
+        <a href="https://danishveerrana.github.io/Srurrr.github.io/" target="_blank">Try Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="social-media scroll-reveal">
+    <h2>Connect with Me</h2>
+    <ul class="social-list">
+      <li><a href="mailto:veerdanish452008@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="https://github.com/danishveerrana"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://www.instagram.com/danishveerrana"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/danishveerrana"><i class="fab fa-linkedin"></i></a></li>
     </ul>
-  </div>
-
-  <!-- Contact Form -->
-  <div class="contact-form">
-    <h2>Contact Me</h2>
-    <form action="mailto:veerdanish452008@gmail.com" method="post" enctype="text/plain">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
