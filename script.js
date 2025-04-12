@@ -1,7 +1,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.chars = '!<>-_\/[]{}—=+*^?#________';
     this.update = this.update.bind(this);
   }
 
@@ -47,8 +47,20 @@ class TextScramble {
   }
 }
 
-const phrases = ['Danish Veer Rana', 'a good Photographer', 'Tech Enthusiast', 'an Editor'];
+const phrases = ['Danish Veer Rana', 'Tech Enthusiast', 'a good Photographer', 'an Editor'];
 const fx = new TextScramble(document.querySelector('.text'));
 let counter = 0;
 const next = () => fx.setText(phrases[counter++ % phrases.length]).then(() => setTimeout(next, 2000));
 next();
+
+// Scroll reveal animation
+const revealElements = document.querySelectorAll('.scroll-reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('revealed');
+    }
+  });
+});
+
+revealElements.forEach(el => observer.observe(el));
