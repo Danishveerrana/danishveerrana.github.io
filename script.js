@@ -1,7 +1,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.chars = '!<>-_\/[]{}--=+*^?#________';
     this.update = this.update.bind(this);
   }
 
@@ -47,24 +47,20 @@ class TextScramble {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  const textElement = document.querySelector('.text');
-  if (!textElement) return;
+const phrases = ['Danish Veer Rana', 'Tech Enthusiast', 'a good Photographer', 'an Editor'];
+const fx = new TextScramble(document.querySelector('.text'));
+let counter = 0;
+const next = () => fx.setText(phrases[counter++ % phrases.length]).then(() => setTimeout(next, 2000));
+next();
 
-  const phrases = ['Danish Veer Rana', 'Tech Enthusiast', 'a good Photographer', 'an Editor'];
-  const fx = new TextScramble(textElement);
-  let counter = 0;
-  const next = () => fx.setText(phrases[counter++ % phrases.length]).then(() => setTimeout(next, 2000));
-  next();
-
-  const revealElements = document.querySelectorAll('.scroll-reveal');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('revealed');
-      }
-    });
+// Scroll reveal animation
+const revealElements = document.querySelectorAll('.scroll-reveal');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('revealed');
+    }
   });
-
-  revealElements.forEach(el => observer.observe(el));
 });
+
+revealElements.forEach(el => observer.observe(el));
