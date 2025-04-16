@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     loader.classList.add('hide');
     document.body.classList.remove('no-scroll');
-  }, 2500); // Loader timeout
+  }, 900); // Loader timeout
 });
 
 // Text scramble animation
