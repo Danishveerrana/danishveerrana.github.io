@@ -4,14 +4,14 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     loader.classList.add('hide');
     document.body.classList.remove('no-scroll');
-  }, 900); // Loader timeout
+  }, 3500); // Loader timeout
 });
 
 // Text scramble animation
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.chars = '!<>-_\\/[]{}--=+*^?#________';
     this.update = this.update.bind(this);
   }
 
