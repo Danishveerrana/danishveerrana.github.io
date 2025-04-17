@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+    color: red;
+  }
+
 /* Section layout */
 .intro, .projects, .social-media {
   padding: 60px 20px;
